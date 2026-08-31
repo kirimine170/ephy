@@ -16,10 +16,12 @@ The local workspace is a non-Git directory whose direct children are independent
 - `karte-renderer` is an output integration for rendered documents．
 - `ephy-private` is isolated from the default workspace and all worker or device distribution paths．
 
+The portable camera，runtime context，and accepted-photo diary flow are defined in [the camera context architecture](camera-context.md)．That document fixes cross-repository meanings while each implementation and JSON Schema remains in its owning repository．
+
 ## Relationship model
 
 Each Ephy repository declares only its parent and direct relationships in `.ephy/project.yaml`．The meta repository validates those declarations and derives the graph．`relations.parent: null` is reserved for the `ephy` ecosystem root．
 
 ## Current implementation state
 
-The workspace bootstrap，status reporting，and ecosystem validation are implemented．Remote execution，physical-device orchestration，camera drivers，and the final Karte transport boundary remain design work in their owning repositories．No duration or completion percentage is inferred from these states．
+The workspace bootstrap，status reporting，and ecosystem validation are implemented．The XIAO ESP32S3 Sense manual USB capture reference and physical-CI validation boundary are implemented in their owning repositories．Portable automatic capture，short-lived permits，runtime visual context，media lifecycle，and automatic accepted-photo diary finalization are accepted or proposed designs，not current production behavior．No duration or completion percentage is inferred from these states．
