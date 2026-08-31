@@ -69,6 +69,7 @@ The data classification is `public`．Do not commit secrets，unnecessary person
 - [Architecture](docs/architecture.md)
 - [Ecosystem architecture overview](docs/architecture-overview.md)
 - [Camera context architecture](docs/camera-context.md)
+- [ephy-cam Codex implementation handoff](docs/implementation/codex-handoff.md)
 - [Karte integration boundary](docs/integrations/karte.md)
 - [Repository relationships](docs/repository-relations.md)
 - [Security and data handling](docs/security-and-data.md)
