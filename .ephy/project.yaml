@@ -1,20 +1,20 @@
 schema_version: 1
 
 project:
-  id: "ephy-repository-template"
+  id: "ephy"
   family: "ephy"
-  type: "template"
+  type: "meta"
   status: "active"
-  visibility: "private"
-  description: "Base repository template for the Ephy ecosystem"
+  visibility: "public"
+  description: "Meta repository，architecture registry，and workspace tooling for the Ephy ecosystem"
 
 relations:
-  parent: "ephy"
+  parent: null
   depends_on: []
   integrates_with: []
   runs_on: []
 
 data_policy:
-  classification: "internal"
+  classification: "public"
   personal_data_in_git: "prohibited"
   secrets_in_git: "prohibited"

@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "repositories": [
+    {
+      "id": "ephy",
+      "github": "kirimine170/ephy",
+      "directory": "ephy",
+      "visibility": "public",
+      "required": true,
+      "auto_clone": true
+    },
+    {
+      "id": "ephy-repository-template",
+      "github": "kirimine170/ephy-repository-template",
+      "directory": "ephy-repository-template",
+      "visibility": "public",
+      "required": true,
+      "auto_clone": true
+    },
+    {
+      "id": "ephy-runtime",
+      "github": "kirimine170/ephy-runtime",
+      "directory": "ephy-runtime",
+      "visibility": "public",
+      "required": true,
+      "auto_clone": true
+    },
+    {
+      "id": "ephy-worker",
+      "github": "kirimine170/ephy-worker",
+      "directory": "ephy-worker",
+      "visibility": "public",
+      "required": true,
+      "auto_clone": true
+    },
+    {
+      "id": "ephy-physical-ci",
+      "github": "kirimine170/ephy-physical-ci",
+      "directory": "ephy-physical-ci",
+      "visibility": "public",
+      "required": true,
+      "auto_clone": true
+    },
+    {
+      "id": "ephy-cam",
+      "github": "kirimine170/ephy-cam",
+      "directory": "ephy-cam",
+      "visibility": "public",
+      "required": true,
+      "auto_clone": true
+    },
+    {
+      "id": "ephy-model",
+      "github": "kirimine170/ephy-model",
+      "directory": "ephy-model",
+      "visibility": "private",
+      "required": true,
+      "auto_clone": false
+    },
+    {
+      "id": "karte",
+      "github": "kirimine170/Karte",
+      "directory": "karte",
+      "visibility": "public",
+      "required": true,
+      "auto_clone": true
+    },
+    {
+      "id": "karte-renderer",
+      "github": "kirimine170/Karte_renderer",
+      "directory": "karte-renderer",
+      "visibility": "public",
+      "required": true,
+      "auto_clone": true
+    },
+    {
+      "id": "ephy-private",
+      "github": "kirimine170/ephy-private",
+      "directory": "ephy-private",
+      "visibility": "private",
+      "required": false,
+      "auto_clone": false
+    },
+    {
+      "id": "karte-docs",
+      "github": "kirimine170/Karte_docs",
+      "directory": "karte-docs",
+      "visibility": "private",
+      "required": false,
+      "auto_clone": false
+    }
+  ]
+}
